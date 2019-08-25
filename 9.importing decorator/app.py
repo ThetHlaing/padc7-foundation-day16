@@ -1,4 +1,7 @@
+from mydecorator import decorator_with_args
+
+#@decorator_with_args
 def say_hello(message):
     return message
 
-say_hello("Hello")
+print(say_hello("Hello"))

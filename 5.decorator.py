@@ -8,6 +8,18 @@ def uppercase_decorator(function):
 
     return wrapper
 
+
+def split_string_decorator(function):
+    def wrapper():
+        func = function()
+        splitted_string = func.split()
+        return splitted_string
+    
+    return wrapper
+
+
+@split_string_decorator
+@uppercase_decorator
 def say_hi():
     return "hello there"
 

@@ -1,4 +1,4 @@
 
-import util
+from util import divide
 
-print(util.divide(2,3))
+print(divide(2,3))

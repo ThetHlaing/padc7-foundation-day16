@@ -3,9 +3,9 @@
 name = "Aung Aung"
 age = 28
 
-print("Hello, %s." % name)
+# print("Hello, %s." % name)
 
-print("Hello, %s. You are %s." % (name, age))
+# print("Hello, %s. You are %s." % (name, age))
 
 ## str.format()
 
@@ -28,7 +28,7 @@ print("Hello, %s. You are %s." % (name, age))
 
 # print(F"Hello, {name.lower()}. You are {age-5}")
 
-# print(
-#     f"Hello, {name}."
-#     f"You are {age}"
-# )
+print(
+    f"Hello, {name}."
+    f"You are {age}"
+)

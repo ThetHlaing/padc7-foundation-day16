@@ -6,6 +6,13 @@ def decorator_with_args(function):
     return wrapper
 
 @decorator_with_args
+def function_with_noarguments():
+    print("Here")
+
+function_with_noarguments()
+
+
+@decorator_with_args
 def function_with_arguments(a, b, c):
     print(a, b, c)
 
